@@ -1,0 +1,15 @@
+#heroCarousel {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  object-fit: fill !important;
+}
+
+.carouselContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

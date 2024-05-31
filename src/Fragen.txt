@@ -1,0 +1,28 @@
+Wie kann man automatisch eine E-Mail schicken? -> API Call, dann mit Node.js vom Server aus
+https://martinezjf2.medium.com/how-to-setup-emailjs-33809350f0f8
+
+E-Mail eintragen in Verteiler auch mit API-Call
+
+Wie binde ich die Bilder am besten ein? (100 Bilder in den assets folder?) -> Bei wirklich vielen Amazon S3, aber hier einfach in assets/img
+
+Macht die Schnittstelle mit Google Sheets Sinn? Direkt MongoDB oder so? -> Datenbank!
+
+Ist allgemein ein CMS nötig? -> NEIN!
+
+Global variable handling?
+
+String file? -> JSON file
+
+Design: 
+Background: white, Container #d9d9d9, Button: #f53f02 
+
+Gallery: Choose not by year, but location
+
+typo: 
+Mulish (3 versch. types: Heading, paragraph, button)
+Barlow
+Roboto
+
+IMplement react router?
+
+Präsentation: (wichtige Punkte im Lab10) 8-10min Länge, 

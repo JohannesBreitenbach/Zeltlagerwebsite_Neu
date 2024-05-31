@@ -1,0 +1,54 @@
+#navbarComponent {
+  .navbar-nav .nav-link {
+    cursor: pointer;
+  }
+
+  .fa-instagram {
+    font-size: 1.5rem;
+  }
+
+  .active {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .navbar-brand {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .navbar-unscrolled {
+    //backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.15);
+    border-bottom-style: solid;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-width: 1px;
+    color: white !important;
+
+    .nav-link {
+      color: white;
+    }
+
+    .navbar-brand {
+      color: white;
+    }
+  }
+
+  .navbar-scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #4f4f4f;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-scroll {
+      background-color: #fff;
+    }
+
+    .navbar-scroll .navbar-brand,
+    .navbar-scroll .nav-link,
+    .navbar-scroll .fa-bars {
+      color: #4f4f4f !important;
+    }
+  }
+}

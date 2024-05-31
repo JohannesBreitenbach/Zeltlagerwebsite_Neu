@@ -1,0 +1,34 @@
+#about-page {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+
+  .container {
+    .row {
+      align-items: center;
+
+      img {
+        max-width: 100%;
+        border-radius: 0.25rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        color: #343a40;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: #495057;
+      }
+
+      p {
+        font-size: 1.125rem;
+        color: #6c757d;
+        line-height: 1.6;
+      }
+    }
+  }
+}

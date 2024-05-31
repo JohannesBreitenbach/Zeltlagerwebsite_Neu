@@ -1,0 +1,26 @@
+#footer-custom {
+  background-color: #fcf5e5;
+
+  .nav-link {
+    cursor: pointer;
+  }
+
+  .active {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  @media (max-width: 576px) {
+    .footer {
+      flex-direction: column;
+
+      .nav {
+        justify-content: center;
+      }
+
+      .nav-item {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
