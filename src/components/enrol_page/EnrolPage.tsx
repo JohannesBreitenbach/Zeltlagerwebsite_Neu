@@ -1,8 +1,8 @@
-import { useState, ChangeEvent, useEffect } from "react";
+import { useState } from "react";
 import "./enrolpage.scss";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { registerLocale, setDefaultLocale } from "react-datepicker";
+import { registerLocale } from "react-datepicker";
 import { de } from "date-fns/locale/de";
 import DownloadSection from "../homepage/download_section/DownloadSection";
 registerLocale("de", de);

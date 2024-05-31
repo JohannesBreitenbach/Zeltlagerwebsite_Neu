@@ -1,5 +1,4 @@
 import Spacer from "../spacer/Spacer";
-import HeroCarousel from "./HeroCarousel";
 import DownloadSection from "./download_section/DownloadSection";
 import EnrolSection from "./enrol_section/EnrolSection";
 import ImageDivider from "./image_divider/ImageDivider";

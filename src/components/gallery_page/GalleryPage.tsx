@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import GalleryGrid from "./GalleryGrid";
 import GalleryHeader from "./GalleryHeader";
 import YEAR_KEYS from "./galleryConstants";

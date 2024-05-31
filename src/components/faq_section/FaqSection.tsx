@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./faqsection.scss";
 
 function FaqSection() {
-  const [faqs, setFaqs] = useState([
+  const [faqs] = useState([
     {
       question: "Für wen ist das Zeltlager?",
       answer:

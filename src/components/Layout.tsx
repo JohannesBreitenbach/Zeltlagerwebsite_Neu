@@ -1,11 +1,8 @@
 import { Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import Navbar from "./navbar/Navbar";
 import Footer from "./footer/Footer";
-import PAGE_KEYS from "../constants";
-import { useState } from "react";
 
 function Layout() {
-  const [activePage, setActivePage] = useState(PAGE_KEYS.HOME);
   let currentLocation = useLocation();
 
   return (
