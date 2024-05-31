@@ -12,7 +12,7 @@ function InfoSection() {
         <div className="container p-3">
           <div className="row">
             <div id="imageContainer" className="col-12 col-md-6">
-              <img src="/src/assets/img/Zeltlager_Logo.png" className="w-100" />
+              <img src="/src/assets/img/Logo.png" className="w-100" />
             </div>
             <div
               id="contentContainer"
