@@ -16,7 +16,7 @@ function NewsSection() {
               className="col-12 col-md-6 mb-3 mb-md-0 ps-md-0"
             >
               <img
-                src="src\assets\img\posters\Zeltlagerplakat2024-1.png"
+                src="/src/assets/img/posters/Zeltlagerplakat2024-1.png"
                 className="w-100"
               />
             </div>
