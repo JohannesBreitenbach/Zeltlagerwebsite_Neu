@@ -13,12 +13,12 @@ import NotFoundPage from "./components/not_found_page/NotFoundPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Zeltlagerwebsite_Neu/",
     element: <Layout />,
     errorElement: <NotFoundPage />,
     children: [
       {
-        path: "/",
+        path: "/Zeltlagerwebsite_Neu/",
         element: <HomePage />,
       },
       {
